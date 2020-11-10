@@ -59,6 +59,7 @@ def difference_super(a,b):
 		if dup_in_second == 0:
 			newset.append(list(first_set)[i])
 	return list(newset)
+	
 
 def showascii(filename):
 	subprocess.call(["jp2a",filename,"--size=65x30"])
