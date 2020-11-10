@@ -63,6 +63,7 @@ def difference_super(a,b):
 def showascii(filename):
 	subprocess.call(["jp2a",filename,"--size=65x30"])
 
+
 before_image_urls = []
 for i in range(20):
 	before_image_urls.append(str(i))
